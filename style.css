@@ -1,0 +1,19 @@
+/* =========================================================
+   STYLE CUSTOM NEUBRUTALISM
+   ========================================================= */
+
+/* EDIT DI SINI: Ketebalan border elemen utama */
+.neo-border {
+    border: 3px solid #FFFFFF;
+}
+
+/* EDIT DI SINI: Ketebalan border elemen kecil (seperti tag/badge) */
+.neo-border-sm {
+    border: 2px solid #FFFFFF;
+}
+
+/* EDIT DI SINI: Animasi Efek Tombol Saat Dipencet/Diklik */
+.neo-btn:active {
+    transform: translate(3px, 3px);
+    box-shadow: 0px 0px 0px 0px #FFFFFF !important;
+}
