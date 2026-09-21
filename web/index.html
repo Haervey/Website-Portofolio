@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Muhammad Raul Al Rafif</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Custom Font: Space Grotesk -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700;900&display=swap" rel="stylesheet">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-bgDark text-white font-sans antialiased selection:bg-neoYellow selection:text-black">
+
+    <!-- NAVBAR -->
+    <nav class="sticky top-0 z-50 bg-bgDark border-b-4 border-white px-6 py-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-black tracking-wider bg-neoYellow text-black px-3 py-1 neo-border shadow-neo-white-sm rotate-[-2deg]">
+                Web Portofolio
+            </a>
+            
+            <!-- Menu Navigasi (Disesuaikan id-nya dengan section di bawah) -->
+            <div class="hidden md:flex space-x-6 font-bold">
+                <a href="#about" class="hover:text-neoYellow transition">/ABOUT ME</a>
+                <a href="#projects" class="hover:text-neoGreen transition">/PROJECTS</a>
+                <a href="#achievement" class="hover:text-neoPink transition">/ACHIEVEMENT</a>
+                <a href="#contact" class="hover:text-neoBlue transition">/CONTACT</a>
+            </div>
+
+            <a href="#contact" class="bg-neoPink text-white font-bold px-4 py-2 neo-border shadow-neo-white neo-btn transition">
+                HIRE ME!
+            </a>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="about" class="max-w-6xl mx-auto px-6 py-20 flex flex-col md:flex-row items-center gap-12">
+        <div class="flex-1 space-y-6">
+            <div class="inline-block bg-neoGreen text-black font-black px-4 py-1 text-sm neo-border uppercase tracking-widest">
+                everything is gonna be happen
+            </div>
+            
+            <h1 class="text-5xl md:text-7xl font-black uppercase leading-none">
+                i'm just <br>
+                <span class="text-neoYellow underline decoration-wavy decoration-neoPink">newbie</span>
+            </h1>
+            
+            <p class="text-gray-300 text-lg font-medium max-w-lg border-l-4 border-neoBlue pl-4">
+                I created this site to capture all my progress
+            </p>
+            
+            <div class="flex flex-wrap gap-4 pt-4">
+                <a href="#projects" class="bg-neoYellow text-black font-black px-6 py-3 neo-border shadow-neo-white neo-btn transition text-lg">
+                    LIHAT KARYA 🚀
+                </a>
+                <a href="#contact" class="bg-cardDark text-white font-black px-6 py-3 neo-border shadow-neo-white neo-btn transition text-lg hover:bg-white hover:text-black">
+                    HUBUNGI GUA ✉️
+                </a>
+            </div>
+        </div>
+        
+        <!-- Foto Profil / Avatar -->
+        <div class="relative">
+            <div class="w-72 h-72 md:w-80 md:h-80 bg-neoPurple neo-border shadow-neo-white relative overflow-hidden flex items-center justify-center">
+                <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Felix" alt="Avatar" class="w-full h-full object-cover">
+            </div>
+            
+            <div class="absolute -bottom-5 -left-5 bg-neoPink text-white font-black p-3 neo-border shadow-neo-white rotate-[-5deg]">
+                LEARNER ⚡
+            </div>
+        </div>
+    </section>
+
+    <!-- MARQUEE / RUNNING TEXT BANNER -->
+    <div class="bg-neoYellow text-black py-3 border-y-4 border-white font-black text-xl overflow-hidden whitespace-nowrap">
+        <div class="inline-block animate-marquee space-x-8">
+            <span>MUHAMMAD RAUL AL RAFIF</span> ✦ <span>LEARNING & GROWING</span> ✦ <span>WEB DEVELOPER</span> ✦ <span>NEUBRUTALISM UI</span> ✦ <span>KEEP PROGRESSING</span> ✦
+        </div>
+    </div>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="max-w-6xl mx-auto px-6 py-20">
+        <h2 class="text-4xl font-black uppercase mb-12 flex items-center gap-4">
+            <span class="bg-neoGreen text-black px-4 py-1 neo-border shadow-neo-white-sm">01</span>
+            FEATURED PROJECTS
+        </h2>
+
+        <div class="grid md:grid-cols-2 gap-8">
+            
+            <!-- Kartu Project 1 -->
+            <div class="bg-cardDark p-6 neo-border shadow-neo-green flex flex-col justify-between group hover:-translate-y-1 transition">
+                <div>
+                    <div class="h-48 bg-neoBlue neo-border mb-4 overflow-hidden flex items-center justify-center font-black text-black text-2xl">
+                        COMING SOON
+                    </div>
+                    <div class="flex gap-2 mb-3">
+                        <span class="bg-neoYellow text-black text-xs font-bold px-2 py-1 neo-border-sm">HTML</span>
+                        <span class="bg-neoPink text-white text-xs font-bold px-2 py-1 neo-border-sm">TAILWIND</span>
+                    </div>
+                    <h3 class="text-2xl font-black mb-2">MY FIRST PROJECT</h3>
+                    <p class="text-gray-400 font-medium mb-6">Proyek pertama dalam tahap pengembangan untuk merekam progress koding.</p>
+                </div>
+                <a href="#" target="_blank" class="inline-block text-center bg-white text-black font-black py-2 neo-border neo-btn hover:bg-neoYellow transition">
+                    LIVE DEMO ↗
+                </a>
+            </div>
+
+            <!-- Kartu Project 2 -->
+            <div class="bg-cardDark p-6 neo-border shadow-neo-pink flex flex-col justify-between group hover:-translate-y-1 transition">
+                <div>
+                    <div class="h-48 bg-neoPurple neo-border mb-4 overflow-hidden flex items-center justify-center font-black text-white text-2xl">
+                        COMING SOON
+                    </div>
+                    <div class="flex gap-2 mb-3">
+                        <span class="bg-neoGreen text-black text-xs font-bold px-2 py-1 neo-border-sm">JAVASCRIPT</span>
+                        <span class="bg-neoBlue text-black text-xs font-bold px-2 py-1 neo-border-sm">CSS</span>
+                    </div>
+                    <h3 class="text-2xl font-black mb-2">UPCOMING APP</h3>
+                    <p class="text-gray-400 font-medium mb-6">Aplikasi web selanjutnya yang sedang disiapkan.</p>
+                </div>
+                <a href="#" target="_blank" class="inline-block text-center bg-white text-black font-black py-2 neo-border neo-btn hover:bg-neoPink hover:text-white transition">
+                    LIVE DEMO ↗
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ACHIEVEMENT SECTION (Disesuaikan dengan menu /ACHIEVEMENT) -->
+    <section id="achievement" class="bg-cardDark border-y-4 border-white py-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <h2 class="text-4xl font-black uppercase mb-12 flex items-center gap-4">
+                <span class="bg-neoPink text-white px-4 py-1 neo-border shadow-neo-white-sm">02</span>
+                ACHIEVEMENT & MILESTONES
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-bgDark p-6 neo-border shadow-neo-white">
+                    <div class="text-3xl mb-2">🚀</div>
+                    <h3 class="text-xl font-black mb-2">STARTED THE JOURNEY</h3>
+                    <p class="text-gray-400 text-sm">Mulai konsisten belajar web development dan eksplorasi UI style baru.</p>
+                </div>
+                <div class="bg-bgDark p-6 neo-border shadow-neo-white">
+                    <div class="text-3xl mb-2">💻</div>
+                    <h3 class="text-xl font-black mb-2">FIRST PORTFOLIO SITE</h3>
+                    <p class="text-gray-400 text-sm">Berhasil membangun dan mempublikasikan situs portofolio pribadi pertama.</p>
+                </div>
+                <div class="bg-bgDark p-6 neo-border shadow-neo-white">
+                    <div class="text-3xl mb-2">🎯</div>
+                    <h3 class="text-xl font-black mb-2">CONTINUOUS LEARNING</h3>
+                    <p class="text-gray-400 text-sm">Selalu menambah skill baru setiap minggu untuk meningkatkan kualitas koding.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="max-w-4xl mx-auto px-6 py-20 text-center">
+        <div class="bg-neoPurple p-8 md:p-12 neo-border shadow-neo-white">
+            <h2 class="text-4xl md:text-5xl font-black uppercase mb-4 text-white">LET'S WORK TOGETHER!</h2>
+            <p class="text-lg font-bold mb-8 text-gray-200">Punya ide proyek menarik atau mau ngobrol santai? Drop pesan lu di bawah!</p>
+            
+            <form id="contactForm" class="space-y-4 text-left max-w-lg mx-auto">
+                <div>
+                    <label class="block font-black text-sm mb-1 uppercase">Nama Lu</label>
+                    <input type="text" id="nameInput" required placeholder="John Doe" class="w-full p-3 bg-bgDark text-white font-bold neo-border focus:outline-none focus:bg-cardDark">
+                </div>
+                <div>
+                    <label class="block font-black text-sm mb-1 uppercase">Email</label>
+                    <input type="email" id="emailInput" required placeholder="john@example.com" class="w-full p-3 bg-bgDark text-white font-bold neo-border focus:outline-none focus:bg-cardDark">
+                </div>
+                <div>
+                    <label class="block font-black text-sm mb-1 uppercase">Pesan</label>
+                    <textarea id="messageInput" rows="4" required placeholder="Halo bro, mau bikin website..." class="w-full p-3 bg-bgDark text-white font-bold neo-border focus:outline-none focus:bg-cardDark"></textarea>
+                </div>
+                <button type="submit" class="w-full bg-neoYellow text-black font-black py-4 neo-border shadow-neo-white neo-btn transition text-xl uppercase">
+                    KIRIM PESAN 🔥
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="border-t-4 border-white py-8 text-center font-bold bg-bgDark">
+        <p>© 2026 MUHAMMAD RAUL AL RAFIF. BUILT WITH NEUBRUTALISM & DARK MODE.</p>
+    </footer>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
